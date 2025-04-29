@@ -1,5 +1,15 @@
 {
+  "name": "barcode_camera_component",
+  "version": "1.0.0",
+  "description": "WeWeb custom component for barcode scanning using mobile camera",
+  "main": "weweb-custom/src/wwElement.vue",
+  "author": "Woomin",
   "dependencies": {
-    "@zxing/browser": "^0.1.5"
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.3"
+  },
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
   }
 }
